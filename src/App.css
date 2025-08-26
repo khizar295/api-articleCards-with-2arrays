@@ -1,0 +1,18 @@
+nav{
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav{
+        width: 90%;
+    }
+    small-row .col-6 small{
+         display: block;
+         width: 100%;
+    }
+}
+@media (max-width: 460px) {
+    nav{
+        width: 100%;
+    }
+}

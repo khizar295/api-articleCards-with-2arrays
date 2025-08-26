@@ -71,11 +71,11 @@ export default function Home() {
   ]
   return (
       <div className="container">
-        <div className="row">
+        <div className="row row1">
           {article.map((ele, index) => (
             <div className="row border p-3">
               <div className="col-6">
-                <div className="row">
+                <div className="row small-row">
                 <div className="col-6">
                   <small>
                     Author : <span className="badge bg-dark">{ele.author}</span>
@@ -101,7 +101,7 @@ export default function Home() {
             </div>
           ))}
         </div>
-        <div className="row">
+        <div className="row row2">
           {article2.map((ele, index) => (
             <div className="col-4 border p-3">
                 <div className="row">
